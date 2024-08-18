@@ -1,6 +1,7 @@
 import * as http from "http";
 import {getListEpisodes, getFilterEpisodes} from "./controllers/controller";
 import { Routes } from "./routes/routes";
+import { HttpMethods } from "./utils/htt-methodes";
 
 
 export const app= async (
@@ -9,10 +10,10 @@ export const app= async (
 ) => {
     const [baseUrl, queryString] = req.url?.split("?") || ["", ""];
 
-    if(req.method === "GET" && baseUrl === Routes.LISTS) {
+    if(req.method === HttpMethods.GET && baseUrl === Routes.LISTS) {
         await getListEpisodes(req, res);
 }
-    if(req.method === "GET" && baseUrl === Routes.EPISODES) {
+    if(req.method === HttpMethods.GET && baseUrl === Routes.EPISODES) {
         await getFilterEpisodes(req, res);
     }
 };

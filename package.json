@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "tsx --env-file=.env src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "tsx --env-file=.env src/server.ts"
   },
   "keywords": [],
   "author": "",

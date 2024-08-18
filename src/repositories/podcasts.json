@@ -1,13 +1,23 @@
 [
     {
         "podcastName": "flow",
-        "name": "Naruto Uzumaki",
-        "age": 12
+        "episode": "TECNOLOGIA E IA [+ FABIO AKITA] - ",
+        "videoId": "--slRywdonM",
+        "categories": ["tecnologia"]
+    },
+  
+    {
+        "podcastName": "flow",
+        "episode": "EXISTE MESMO INTELIGÊNCIA ARTIFICIAL? [+ Nicolelis e Sacani]",
+        "videoId": "u78AkEhOqmM",
+        "categories": ["tecnologia"]
     },
 
     {
-        "podcastName": "folha",
-        "name": "Jiraia",
-        "age": 50
+        "podcastName": "The Noite com Danilo Gentili",
+        "episode": "Entrevista com Sérgio Sacani do canal Space Today | The Noite (22/09/23)",
+        "videoId": "l1k1EiFQ5AA",
+        "categories": ["tecnologia", "entrevista"]
     }
+
 ]

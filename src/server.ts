@@ -1,11 +1,8 @@
 import * as http from "http";
 import {app} from "./app";
-
+const port = process.env.PORT;
 // criar o Server 
 const server = http.createServer(app);
-    
-const port = process.env.PORT;
-
 
 server.listen(port, ()=> {
     let date = new Date();
